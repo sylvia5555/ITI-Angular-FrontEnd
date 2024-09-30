@@ -1,5 +1,5 @@
-ITI course tasks 💻 
--HTML & CSS
--JS 
--Bootstrap
--ES6 
+ITI course tasks 💻 <br>
+-HTML & CSS <br>
+-JS <br>
+-Bootstrap<br>
+-ES6 <br>
