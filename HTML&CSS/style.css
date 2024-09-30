@@ -1,0 +1,22 @@
+/* 
+simple selector 
+combination selector 
+pseudo class selector 
+pseudo element selector 
+attribute selector 
+*/
+
+body {
+    box-sizing: border-box;
+}
+
+/* zebra stripes */
+tr:nth-child(odd) {
+    background-color: brown;
+    border: none;
+    color: white;
+}
+
+td:nth-child(even), th:nth-child(odd){
+    background-color: #777;
+}

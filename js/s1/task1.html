@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        // Q 1.1
+
+        var text = prompt("enter the msg..");
+        for (var i = 1; i <= 6; i++) {
+            document.writeln(`<h${i}>${text}</h${i}>`)
+        }
+
+        //  Q 1.2
+
+        var sum = 0;
+        while(sum < 100) {
+            var input = prompt("enter a valid number")
+            if (typeof Number(input) == String){
+                alert("enter a valid number!")
+            } else if (input == 0) {
+                break;
+            } else {
+                sum += Number(input);
+            }
+        }
+        alert(sum)
+
+        // #########################
+        // Q 2.1
+
+        var str = prompt("enter a string to count e letters")
+
+        let eCount = 0
+        for (var i = 0; i < str.length; i++) {
+            if (str[i] == 'e') {
+                eCount++;
+            }
+        }
+
+        document.writeln(`<p>numer of 'e' equals to ${eCount}</p>`)
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

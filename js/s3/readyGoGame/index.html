@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+    
+<!-- a function that follows the rule below. Take the given number and light the corresponding circle. -->
+        
+        <h1>Ready Go Game</h1>
+        
+        <div class="game">
+            <label for="inputNumber">Number: </label>
+            <input type="number" id="inputNumber" min="1" max="3" value="1">
+            <button onclick="lightCircle()">Light Up!</button>
+        </div>
+
+        <div class="circles">
+            <div id="circle1" class="circle"></div>
+            <div id="circle2" class="circle"></div>
+            <div id="circle3" class="circle"></div>
+        </div>
+
+        <div class="rule">
+            <p>Rule :</p>
+            <p>1 = "Ready" , 2 = "Steady", 3 = "Go"</p>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

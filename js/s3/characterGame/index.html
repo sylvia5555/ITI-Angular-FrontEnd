@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <!-- Write a function that takes a sentence and a letter to search for it in the given sentence and return its
+            locations in that sentence. -->
+            
+    <div class="container">
+        <h1>Character Game</h1>
+        
+
+        <div class="game">
+            <label for="inputString">String: </label>
+            <input type="text" id="inputString" value="This is javaScript">
+            <label for="inputLetter">Letter: </label>
+            <input type="text" id="inputLetter" maxlength="1" value="i">
+            <button onclick="findOccurrences()">Find Locations</button>
+        </div>
+
+        <div class="output">
+            <p>Output (array): <span id="outputArray"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+.circles {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: grey;
+    transition: background-color 0.3s ease;
+}
+
+#circle1.ready {
+    background-color: red;
+}
+
+#circle2.steady {
+    background-color: yellow;
+}
+
+#circle3.go {
+    background-color: green;
+}
+
+.game {
+    margin-top: 20px;
+}
+
+button {
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+
+.rule {
+    margin-top: 20px;
+}
