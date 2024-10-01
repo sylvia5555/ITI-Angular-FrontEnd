@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Tabs with Posts</title>
+    <style>
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            padding: 10px 15px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+
+        .tab:hover {
+            background-color: #ddd;
+        }
+
+        .tab.active {
+            background-color: #ccc;
+            font-weight: bold;
+        }
+
+        .posts {
+            padding: 20px;
+        }
+
+        .posts li {
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid red;
+            width: fit-content;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="tabs" class="tabs"></div>
+    <ul id="posts" class="posts"></ul>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
